@@ -8,7 +8,7 @@
 
   ```cpp
   Singleton<T>::GetInstance() // 无参构造
-  Singleton<T, ... Args>::GetInstance(... Args) // 无参构造
+  Singleton<T, ... Args>::GetInstance(... Args) // 传入任意参数进行构造
   ```
 
 - 继承派生
